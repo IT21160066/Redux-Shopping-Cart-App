@@ -6,6 +6,8 @@
   align-items: center;
   justify-items: center;
   flex-wrap: wrap;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 button {
   margin-top: 25px;
@@ -15,6 +17,7 @@ button {
   border: none;
   cursor: pointer;
   background-color: rgba(21, 26, 42, 0.787);
+  border-radius: 10px;
 }
 .card {
   width: 250px;
@@ -25,6 +28,7 @@ button {
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 10px #ccc;
+  border-radius: 10px;
 }
 .card img {
   width: 90%;
