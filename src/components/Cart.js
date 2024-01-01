@@ -9,6 +9,7 @@ const Cart = () => {
   const showCart = () => {
     dispatch(cartActions.setShowCart());
   };
+  console.log(quantity);
 
   return (
     <div className="cartIcon">
